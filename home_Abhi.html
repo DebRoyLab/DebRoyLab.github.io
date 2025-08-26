@@ -7,39 +7,32 @@
         <meta name="author" content="" />
         <title>Deb Roy Lab | Cell Dynamics</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/medicine.shield.small.blue.png"/>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 
     <body>
+
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/logo_black.jpeg", height = 45px></a>
+                <a class="navbar-brand" href="home_Abhi.html"><img src="assets/uconn-health-wordmark-side-blue.png", height = 30px></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="people.html">People</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="research.html">Research</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="publications.html">Publications</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
+                        <li class="nav-item"><a class="nav-link" href="Research.html">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Members.html">Members</a></li>
+                        <li class="nav-item"><a class="nav-link" href="TimeLine.html">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Publications.html">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
+
+        <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
                 <h1>Home</h1>
@@ -48,126 +41,140 @@
         </div>
 
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-
-
-
+        <!-- Carousel Wrapper -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          </div>
 
-          <div class="carousel-inner">
+        <!-- Indicators (dots) -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></button>
+        </div>
+
+        <!-- Carousel Inner (Images) -->
+        <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/Picture2.png" class="d-block w-100" alt="First Slide">
-              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/Picture1.png" style="height: 400px;" alt="First Slide">
+                </div>
+            <div class="carousel-caption d-none d-md-block">
                 <p>"May Peace be with the Lab"</p>
-              </div>
             </div>
+            </div>
+
             <div class="carousel-item">
-              <img src="assets/synthetic_cell_devouring.png" class="d-block w-100" alt="Second Slide">
-              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/Picture2.png" style="height: 400px;" alt="Second Slide">
+                </div>
+            <div class="carousel-caption d-none d-md-block">
                 <p>Synthetic Cell Devouring</p>
-              </div>
             </div>
+            </div>
+
             <div class="carousel-item">
-              <img src="assets/ER-Mito_tethering.jpeg" class="d-block w-100" alt="Third Slide">
-              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/Picture3.png" style="height: 400px;" alt="Third Slide">
+                </div>
+            <div class="carousel-caption d-none d-md-block">
                 <p>Synthetic Tethering of Organelles: ER and Mitochondria</p>
-              </div>
             </div>
-            <div class="carousel-item">
-              <img src="assets/Cell-Cell_tethering.jpeg" class="d-block w-100" alt="Fourth Slide">
-              <div class="carousel-caption d-none d-md-block">
-                <p>Cell-Cell Tethering</p>
-              </div>
             </div>
+
             <div class="carousel-item">
-              <img src="assets/tools.png" class="d-block w-100" alt="Fifth Slide">
-              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/Picture4.png" style="height: 400px;" alt="Fourth Slide">
+                </div>
+            <div class="carousel-caption d-none d-md-block">
+                <p>Lab lunch, 2025</p>
+            </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/Picture5.png" style="height: 400px;" alt="Fifth Slide">
+                </div>
+            <div class="carousel-caption d-none d-md-block">
                 <p>Tools Used in the Lab</p>
-              </div>
             </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            </div>
+        </div>
+
+        <!-- Controls (arrows) -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button>
+        </button>
+
         </div>
 
 
-        <!--- Timeline -->
-        <div class="container">
+        
+
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- I have no idea what and why they are here -->
+
+        <br><br>
+
+
+        <!-- About -->
+         <div class="container">
             <div class="text-center mt-5">
-              <p class="lead">Lab News: a timeline</p>
+                <h3>About us</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div id="content">
-                            <ul class="timeline">
-<li class="event" data-date="May 7, 2024">
-                                    <p>Abhi gave an invited talk: “The Heart and its Dynamic Cells” at the Washington D.C. Women’s Board Annual Meeting in Bethesda, MD.</p>
-                                </li>
 
-
-                                </li>
-                                <li class="event" data-date="April 17, 2024">
-                                    <p>Abhi received the Paul Ehrlich Research Award at Johns Hopkins Medical Institute for his postdoctoral work.<p>
-                                </li>
-
-                                <li class="event" data-date="March 22, 2024">
-                                    <p>Abhi joins the Center for Cell Analysis and Modeling at UConn Health as an Assistant Professor.</p>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+         <div class="container">
+            <div class="text mt-5">
+                <p>
+                  Our research focuses on “synthetic cell biology” to dissect and reconstitute intricate signaling networks. In particular, we investigate positive-feedback mechanisms underlying the initiation of neutrophil chemotaxis (known as a symmetry breaking process), as well as spatio-temporally dynamic information processing at various compartments in living cells. In parallel, our lab also tries to understand how cell morphology affects biochemical functions. Ultimately, we will generate completely orthogonal nano-machinery in artificial cells that can achieve existing, and even novel, cellular functions. Our research is conducted in an open lab style building which embodies multidisciplinary research. Students who are enthusiastic about learning diverse disciplines, developing innovative techniques, and challenging fundamental biological problems would enjoy the environment. We welcome students to our lab for discussions about potential research projects.
+                </p>
             </div>
         </div>
-    <!--- Timeline -->
+
+        <br><br><br><br><br><br><br>
+
+        
+
+
     </body>
 
     <footer>
-      <div class="container">
-        <nav class="row" role="navigation">
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p>
-                <a href="https://www.google.com/maps/dir//400+Farmington+Avenue,+Farmington,+CT/@41.7319796,-72.8026269,17z/data=!3m2!4b1!5s0x89c80463dc0ffb7b:0xab83bb4e4d83f499!4m8!4m7!1m0!1m5!1m1!1s0x89e7ade113c1b06b:0x953ea9c4e2e7b7b8!2m2!1d-72.800052!2d41.7319756?entry=ttu" target="_blank" class="text-reset"></br>Cell and Genome Sciences Building @ UConn Health</a>
-              </p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p>
-                <a href="mailto:abdebroy@uchc.edu" target="_blank" class="text-reset"></br>abdebroy@uchc.edu</a>
-              </p>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-              <p>
-                <a target="_blank"></br>860-679-2130</a>
-              </p>
-            </div>
-        </nav>
-      </div>
+        <div class="container">
+            <nav class="row" role="navigation">
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <p>
+                        <a href="https://www.google.com/maps/dir//400+Farmington+Avenue,+Farmington,+CT/@41.7319796,-72.8026269,17z/data=!3m2!4b1!5s0x89c80463dc0ffb7b:0xab83bb4e4d83f499!4m8!4m7!1m0!1m5!1m1!1s0x89e7ade113c1b06b:0x953ea9c4e2e7b7b8!2m2!1d-72.800052!2d41.7319756?entry=ttu" target="_blank" class="text-reset"></br>Cell and Genome Sciences Building @ UConn Health</a>
+                    </p>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <p>
+                        <a href="mailto:abdebroy@uchc.edu" target="_blank" class="text-reset"></br>abdebroy@uchc.edu</a>
+                    </p>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <p>
+                        <a target="_blank"></br>860-679-2130</a>
+                    </p>
+                </div>
+            </nav>
+        </div>
 
-      <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: #ffffff;">
-        &copy; 2024 Deb Roy Lab
-      </div>
-      <!-- Copyright -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: #ffffff;">
+            &copy; 2024 Deb Roy Lab
+        </div>
+        <!-- Copyright -->
     </footer>
 
 </html>
